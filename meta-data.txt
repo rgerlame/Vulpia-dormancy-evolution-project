@@ -1,0 +1,20 @@
+
+#code
+
+All code is found in ~/code
+
+Our data analyses are broken into two scripts: "code - main.R" contains the majority of the analyses, whereas "code - supp mat.R" contains analyses mostly associated with the Supplement. Which code is in which script will be moved around after peer review in case reviewers have comments on what goes in the supplement.
+
+Our simulation is found in "dormancy sim.R"
+
+#data
+
+"cleaned_Fitnessdata.csv" and "ndvi_szojka_buffer25m2.csv" are used in "code - supp mat.R" and to test how Vulpia's fitness varies across a productivity gradient.
+
+"climate.csv" is used in "code - supp mat.R" to examine how temperature and precipitation vary through time at the Reserve
+
+"plastic dormancy, 2 seeds.csv" is the full output created from "dormancy sim.R"
+
+"percent green.csv" is used in "code - supp mat.R" to examine how primary production (i.e., % of plot containing living plant matter) varied over a 3 year sampling window across plots that varied in overall quality (using the site 'productivity' variable found in "percent green.csv").
+
+"raw env data.csv" and "env.means.all, lat lon.csv" were used in "code - supp mat.R" to test how variable environmental conditions are within and between sites.
